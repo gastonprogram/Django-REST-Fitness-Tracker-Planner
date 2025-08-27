@@ -1,0 +1,652 @@
+[
+  {
+    "model": "fitness.exercise",
+    "pk": 1,
+    "fields": {
+      "name": "Push-ups",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "shoulders"],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=IODxDxX7oi4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 2,
+    "fields": {
+      "name": "Bench Press",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "shoulders"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=rT7DgCr-3pg"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 3,
+    "fields": {
+      "name": "Squats",
+      "primary_muscle": "legs",
+      "secondary_muscles": ["back"],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=aclHkVaku9U"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 4,
+    "fields": {
+      "name": "Deadlift",
+      "primary_muscle": "back",
+      "secondary_muscles": ["legs", "arms"],
+      "equipment": "barbell",
+      "difficulty": "hard",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=ytGaGIn3SjE"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 5,
+    "fields": {
+      "name": "Pull-ups",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 6,
+    "fields": {
+      "name": "Overhead Press",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["arms", "chest"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=QAQ64hK4Xxs"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 7,
+    "fields": {
+      "name": "Dumbbell Rows",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=roCP6wCXPqo"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 8,
+    "fields": {
+      "name": "Dips",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "shoulders"],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=2z8JmcrW-As"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 9,
+    "fields": {
+      "name": "Burpees",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["legs", "arms", "shoulders"],
+      "equipment": "bodyweight",
+      "difficulty": "hard",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=auBLPXO8Fww"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 10,
+    "fields": {
+      "name": "Lunges",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=QE8oRBukYvM"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 11,
+    "fields": {
+      "name": "Bicep Curls",
+      "primary_muscle": "arms",
+      "secondary_muscles": [],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=ykJmrZ5v0Oo"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 12,
+    "fields": {
+      "name": "Tricep Extensions",
+      "primary_muscle": "arms",
+      "secondary_muscles": [],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=nRiJVZDpdL0"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 13,
+    "fields": {
+      "name": "Plank",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "back"],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=pSHjTRCQxIw"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 14,
+    "fields": {
+      "name": "Mountain Climbers",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["legs", "arms"],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=nmwgirgXLYM"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 15,
+    "fields": {
+      "name": "Leg Press",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=IZxyjW7MPJQ"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 16,
+    "fields": {
+      "name": "Lat Pulldown",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=CAwf7n6Luuc"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 17,
+    "fields": {
+      "name": "Shoulder Shrugs",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["back"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=cJRVVxmytaM"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 18,
+    "fields": {
+      "name": "Calf Raises",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=gwLzBJYoWlI"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 19,
+    "fields": {
+      "name": "Kettlebell Swings",
+      "primary_muscle": "legs",
+      "secondary_muscles": ["back", "shoulders"],
+      "equipment": "kettlebell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=YSxHifyI6s8"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 20,
+    "fields": {
+      "name": "Turkish Get-ups",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["chest", "back", "legs", "arms"],
+      "equipment": "kettlebell",
+      "difficulty": "hard",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=0bWRPC49-KI"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 21,
+    "fields": {
+      "name": "Incline Bench Press",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "shoulders"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=SrqOu55lrYU"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 22,
+    "fields": {
+      "name": "Romanian Deadlift",
+      "primary_muscle": "legs",
+      "secondary_muscles": ["back"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=jEy_czb3RKA"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 23,
+    "fields": {
+      "name": "Face Pulls",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["back"],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=rep-qVOkqgk"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 24,
+    "fields": {
+      "name": "Hip Thrusts",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=SEdqd1n0cvg"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 25,
+    "fields": {
+      "name": "Russian Twists",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms"],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=wkD8rjkodUI"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 26,
+    "fields": {
+      "name": "Hammer Curls",
+      "primary_muscle": "arms",
+      "secondary_muscles": [],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=zC3nLlEvin4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 27,
+    "fields": {
+      "name": "Arnold Press",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["arms"],
+      "equipment": "dumbbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=6Z15_WdXmVw"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 28,
+    "fields": {
+      "name": "Goblet Squats",
+      "primary_muscle": "legs",
+      "secondary_muscles": ["back"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=MeIiIdhvXT4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 29,
+    "fields": {
+      "name": "Chest Flyes",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["shoulders"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=eozdVDA78K0"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 30,
+    "fields": {
+      "name": "T-Bar Rows",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=j3Igk5nyZE4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 31,
+    "fields": {
+      "name": "Jump Squats",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=CVaEhXotL7M"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 32,
+    "fields": {
+      "name": "Diamond Push-ups",
+      "primary_muscle": "arms",
+      "secondary_muscles": ["chest", "shoulders"],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=J0DnG1_S92I"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 33,
+    "fields": {
+      "name": "Lateral Raises",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": [],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=3VcKaXpzqRo"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 34,
+    "fields": {
+      "name": "Bulgarian Split Squats",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=2C-uNgKwPLE"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 35,
+    "fields": {
+      "name": "Reverse Flyes",
+      "primary_muscle": "back",
+      "secondary_muscles": ["shoulders"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=ea7qmaN0ScA"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 36,
+    "fields": {
+      "name": "Leg Curls",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=ELOCsoDSmrg"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 37,
+    "fields": {
+      "name": "Chest Press Machine",
+      "primary_muscle": "chest",
+      "secondary_muscles": ["arms", "shoulders"],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=xUm0BiZCWlQ"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 38,
+    "fields": {
+      "name": "Seated Rows",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "machine",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=xQNrFHEMhI4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 39,
+    "fields": {
+      "name": "Preacher Curls",
+      "primary_muscle": "arms",
+      "secondary_muscles": [],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=fIWP-FRFNU0"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 40,
+    "fields": {
+      "name": "Skull Crushers",
+      "primary_muscle": "arms",
+      "secondary_muscles": [],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=d_KZxkY_0cM"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 41,
+    "fields": {
+      "name": "Farmer's Walk",
+      "primary_muscle": "arms",
+      "secondary_muscles": ["back", "legs"],
+      "equipment": "dumbbell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=p3qgOaVQaEw"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 42,
+    "fields": {
+      "name": "Wall Sits",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=y-wV4Venusw"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 43,
+    "fields": {
+      "name": "Pike Push-ups",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["arms", "chest"],
+      "equipment": "bodyweight",
+      "difficulty": "medium",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=x4YGrIzu6jM"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 44,
+    "fields": {
+      "name": "Glute Bridges",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=OUgsJ8-Vi0E"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 45,
+    "fields": {
+      "name": "Close-Grip Bench Press",
+      "primary_muscle": "arms",
+      "secondary_muscles": ["chest"],
+      "equipment": "barbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=nEF0bv2FW94"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 46,
+    "fields": {
+      "name": "Wide-Grip Pull-ups",
+      "primary_muscle": "back",
+      "secondary_muscles": ["arms"],
+      "equipment": "bodyweight",
+      "difficulty": "hard",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=eGo4IYlbE5g"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 47,
+    "fields": {
+      "name": "Single-Arm Dumbbell Press",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["arms", "chest"],
+      "equipment": "dumbbell",
+      "difficulty": "medium",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=qEwKCR5JCog"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 48,
+    "fields": {
+      "name": "Step-ups",
+      "primary_muscle": "legs",
+      "secondary_muscles": [],
+      "equipment": "bodyweight",
+      "difficulty": "easy",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=dQqApCGd5Ss"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 49,
+    "fields": {
+      "name": "Kettlebell Goblet Squats",
+      "primary_muscle": "legs",
+      "secondary_muscles": ["back"],
+      "equipment": "kettlebell",
+      "difficulty": "easy",
+      "is_bodyweight": false,
+      "video_url": "https://www.youtube.com/watch?v=MeIiIdhvXT4"
+    }
+  },
+  {
+    "model": "fitness.exercise",
+    "pk": 50,
+    "fields": {
+      "name": "Handstand Push-ups",
+      "primary_muscle": "shoulders",
+      "secondary_muscles": ["arms", "chest"],
+      "equipment": "bodyweight",
+      "difficulty": "hard",
+      "is_bodyweight": true,
+      "video_url": "https://www.youtube.com/watch?v=tQhrk6WMcKw"
+    }
+  }
+]
