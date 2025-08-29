@@ -1,0 +1,257 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 100,
+    "fields": {
+      "username": "testuser",
+      "email": "test@example.com",
+      "first_name": "Test",
+      "last_name": "User",
+      "password": "pbkdf2_sha256$600000$test$testpass123encoded",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-29T00:00:00Z"
+    }
+  },
+  {
+    "model": "fitness.workout",
+    "pk": 1,
+    "fields": {
+      "user": 100,
+      "date": "2025-08-27",
+      "notes": "Entrenamiento de pecho y tríceps - Básico",
+      "duration_min": 45
+    }
+  },
+  {
+    "model": "fitness.workout",
+    "pk": 2,
+    "fields": {
+      "user": 100,
+      "date": "2025-08-28",
+      "notes": "Entrenamiento completo - Avanzado",
+      "duration_min": 90
+    }
+  },
+  {
+    "model": "fitness.workout",
+    "pk": 3,
+    "fields": {
+      "user": 100,
+      "date": "2025-08-29",
+      "notes": "Workout planeado para hoy",
+      "duration_min": 60
+    }
+  },
+  {
+    "model": "fitness.workoutexercise",
+    "pk": 1,
+    "fields": {
+      "workout": 1,
+      "exercise": 1,
+      "order": 1,
+      "target_sets": 3,
+      "target_reps": 10
+    }
+  },
+  {
+    "model": "fitness.workoutexercise",
+    "pk": 2,
+    "fields": {
+      "workout": 1,
+      "exercise": 2,
+      "order": 2,
+      "target_sets": 3,
+      "target_reps": 8
+    }
+  },
+  {
+    "model": "fitness.workoutexercise",
+    "pk": 3,
+    "fields": {
+      "workout": 2,
+      "exercise": 4,
+      "order": 1,
+      "target_sets": 4,
+      "target_reps": 6
+    }
+  },
+  {
+    "model": "fitness.workoutexercise",
+    "pk": 4,
+    "fields": {
+      "workout": 2,
+      "exercise": 5,
+      "order": 2,
+      "target_sets": 3,
+      "target_reps": 8
+    }
+  },
+  {
+    "model": "fitness.workoutexercise",
+    "pk": 5,
+    "fields": {
+      "workout": 3,
+      "exercise": 6,
+      "order": 1,
+      "target_sets": 3,
+      "target_reps": 10
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 1,
+    "fields": {
+      "workout_exercise": 1,
+      "set_number": 1,
+      "reps_completed": 10,
+      "weight_kg": null,
+      "rpe": 7.0,
+      "rest_sec": 60
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 2,
+    "fields": {
+      "workout_exercise": 1,
+      "set_number": 2,
+      "reps_completed": 9,
+      "weight_kg": null,
+      "rpe": 8.0,
+      "rest_sec": 60
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 3,
+    "fields": {
+      "workout_exercise": 1,
+      "set_number": 3,
+      "reps_completed": 8,
+      "weight_kg": null,
+      "rpe": 9.0,
+      "rest_sec": 60
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 4,
+    "fields": {
+      "workout_exercise": 2,
+      "set_number": 1,
+      "reps_completed": 8,
+      "weight_kg": 60.0,
+      "rpe": 7.5,
+      "rest_sec": 100
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 5,
+    "fields": {
+      "workout_exercise": 2,
+      "set_number": 2,
+      "reps_completed": 8,
+      "weight_kg": 62.5,
+      "rpe": 8.0,
+      "rest_sec": 110
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 6,
+    "fields": {
+      "workout_exercise": 2,
+      "set_number": 3,
+      "reps_completed": 6,
+      "weight_kg": 65.0,
+      "rpe": 8.5,
+      "rest_sec": 120
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 7,
+    "fields": {
+      "workout_exercise": 3,
+      "set_number": 1,
+      "reps_completed": 6,
+      "weight_kg": 70.0,
+      "rpe": 6.5,
+      "rest_sec": 120
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 8,
+    "fields": {
+      "workout_exercise": 3,
+      "set_number": 2,
+      "reps_completed": 5,
+      "weight_kg": 75.0,
+      "rpe": 7.0,
+      "rest_sec": 120
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 9,
+    "fields": {
+      "workout_exercise": 3,
+      "set_number": 3,
+      "reps_completed": 4,
+      "weight_kg": 80.0,
+      "rpe": 7.5,
+      "rest_sec": 120
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 10,
+    "fields": {
+      "workout_exercise": 3,
+      "set_number": 4,
+      "reps_completed": 3,
+      "weight_kg": 82.5,
+      "rpe": 8.0,
+      "rest_sec": 120
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 11,
+    "fields": {
+      "workout_exercise": 4,
+      "set_number": 1,
+      "reps_completed": 8,
+      "weight_kg": null,
+      "rpe": 6.5,
+      "rest_sec": 90
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 12,
+    "fields": {
+      "workout_exercise": 4,
+      "set_number": 2,
+      "reps_completed": 7,
+      "weight_kg": null,
+      "rpe": 7.0,
+      "rest_sec": 90
+    }
+  },
+  {
+    "model": "fitness.workoutset",
+    "pk": 13,
+    "fields": {
+      "workout_exercise": 4,
+      "set_number": 3,
+      "reps_completed": 6,
+      "weight_kg": null,
+      "rpe": 7.5,
+      "rest_sec": 90
+    }
+  }
+]
